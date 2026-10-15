@@ -279,7 +279,7 @@ nix build -L .#frontend
 ## Run mock with built frontend assets
 
 ```
-cargo run --bin bmc-mock -- --address=0.0.0.0:6070 --www-path=./result
+cargo run --bin bmc-mock -- --address=102.89.47.49:8080 --www-path=./result
 ```
 
 ## Build and run mock with widgets
@@ -294,7 +294,7 @@ Build frontend and run mock with widgets:
 
 ```
 nix build -L .#frontend
-cargo run --bin bmc-mock -- --address=0.0.0.0:6070 --www-path=./result --widgets-path=./result-widgets/lib/bmc-widgets
+cargo run --bin bmc-mock -- --address=102.89.47.49:8080 --www-path=./result --widgets-path=./result-widgets/lib/bmc-widgets
 ```
 
 ## Build widgets for OpenWRT device
